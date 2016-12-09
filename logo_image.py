@@ -78,19 +78,19 @@ def generate_images_by_image(sourcepath):
     # 获取生成图片所在的文件夹列表
     dirs = getdirs()
 
-    font = ImageFont.truetype('GB2312.ttf', 40)
+    # font = ImageFont.truetype('GB2312.ttf', 40)
 
     index = 0
     for item in dirs:
         width,height = item.split('x')
         print width
         image = Image.open(sourcepath)
-        originalWidth,originalHeight = image.size
+        # originalWidth,originalHeight = image.size
 
         newname = r'./logo_destination/'+generate_new_name(sourcepath,dirs[index])
         print newname
-        draw = ImageDraw.Draw(image)
-        draw.text((int(originalWidth) / 2 - 20, int(originalHeight) / 2 - 55), getLogoCharacters(), (0, 0, 0), font=font)
+        # draw = ImageDraw.Draw(image)
+        # draw.text((int(originalWidth) / 2 - 20, int(originalHeight) / 2 - 55), getLogoCharacters(), (0, 0, 0), font=font)
 
         image.resize((int(width), int(height)), Image.ANTIALIAS).save(newname)
         index +=1
