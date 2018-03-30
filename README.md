@@ -6,7 +6,7 @@
 
 ***
 
-觉得对你有帮助可以愉快的赞赏下我，不要太多哦~
+觉得对你有帮助可以愉快的赞赏下我，不要太多哦~<br>
 <img src="http://btlearn.com/wp-content/uploads/2018/03/xxxx.jpg" width="40%" height="40%">
 
 ***
